@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @nh_killer
+# Subscribe YouTube Channel For Amazing Bot @nh_killer
+# Ask Doubt on telegram @nh_killer
 
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram import filters, Client, errors, enums
@@ -42,7 +42,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @VJ_Botz __**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @nh_onwer __**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
@@ -59,10 +59,10 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/fuleNh"),
+                        InlineKeyboardButton("💬 Support", url="https://t.me/Nh_group01")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/vjmasterblastbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="Nh_File_mannger_bot?startgroup")
                     ]
                 ]
             )
@@ -73,7 +73,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/vjmasterblastbot?startgroup")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="Nh_File_mannger_bot?startgroup")
                     ]
                 ]
             )
@@ -101,10 +101,10 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/VJ_Botz"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/fuleNh"),
+                        InlineKeyboardButton("💬 Support", url="https://t.me/Nh_group01")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/vjmasterblastbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="Nh_File_mannger_bot?startgroup")
                     ]
                 ]
             )
